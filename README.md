@@ -1,4 +1,4 @@
-### Weather-Analytics-Dashboard
+## Weather-Analytics-Dashboard
 
 ### Project Overview
 The Weather Analytics Dashboard is an interactive Power BI solution that integrates real-time and forecast weather data from WeatherAPI.com to deliver structured environmental insights across multiple global cities.
