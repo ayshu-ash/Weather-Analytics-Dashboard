@@ -5,6 +5,9 @@ The Weather Analytics Dashboard is an interactive Power BI solution that integra
 The dashboard consolidates fragmented weather and air quality data into a unified analytical interface, enabling real-time monitoring, trend analysis, and cross-city comparison for informed decision-making.
 This project demonstrates API integration, dimensional data modeling, DAX-based KPI development, and analytical storytelling.
 
+## 📊 Dashboard Preview
+![Weather Dashboard](Screenshots/dashboard.png)
+
 # Business Problem
 Urban planners, logistics teams, event organizers, and public health stakeholders require consolidated environmental intelligence to make weather-informed decisions.
 However, weather data is often:
