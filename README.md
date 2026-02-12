@@ -15,7 +15,7 @@ This dashboard transforms API-driven environmental data into a structured, decis
 
 # Data Source
    ### Primary Source:  
-        WeatherAPI.com 
+   * WeatherAPI.com 
    ### Data Processing:
    * API connection in Power BI.
    * JSON expansion using Power Query.
@@ -66,12 +66,7 @@ The model aligns with star-schema best practices for BI reporting.
    * Air Quality Index (AQI)
    * AQI Category (Good / Moderate / Unhealthy)
    * Pollutant Levels:
-       PM2.5
-       PM10
-       CO
-       NO₂
-       SO₂
-       O₃
+       PM2.5, PM10, CO, NO₂, SO₂, O₃
 All KPIs dynamically respond to selected city filters using relational modeling and DAX measures.
 
 # Key Insights
