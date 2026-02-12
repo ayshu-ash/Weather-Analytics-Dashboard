@@ -8,42 +8,42 @@ This project demonstrates API integration, dimensional data modeling, DAX-based 
 # Business Problem
 Urban planners, logistics teams, event organizers, and public health stakeholders require consolidated environmental intelligence to make weather-informed decisions.
 However, weather data is often:
-    * Scattered across multiple platform.
-    * Presented in raw, unstructured formats.
-    * Lacking comparative and trend-based analysis.
+   * Scattered across multiple platform.
+   * Presented in raw, unstructured formats.
+   * Lacking comparative and trend-based analysis.
 This dashboard transforms API-driven environmental data into a structured, decision-support reporting solution.
 
 # Data Source
    ### Primary Source:  
         WeatherAPI.com 
    ### Data Processing:
-     * API connection in Power BI.
-     * JSON expansion using Power Query.
-     * Data cleaning and column formatting.
-     * Structured relational modeling.
+   * API connection in Power BI.
+   * JSON expansion using Power Query.
+   * Data cleaning and column formatting.
+   * Structured relational modeling.
 
 # Data Modeling Approach
 The model follows a dimensional structure to support analytical reporting.
    ### Tables
    
    ## Dimension Table:
-      * Location
+   * Location
 
    ## Fact Tables
-      * Current (1:1 relationship with Location)
-      * Forecast_Day (Many-to-One relationship with Location)
-      * Forecast_Hour (Many-to-One relationship with Location)
+   * Current (1:1 relationship with Location)
+   * Forecast_Day (Many-to-One relationship with Location)
+   * Forecast_Hour (Many-to-One relationship with Location)
 
   ## Design Rationale
-     * Location acts as a central dimension enabling dynamic filtering.
-     * Separation of Current and Forecast tables prevents grain conflicts between real-time and aggregated data.
-     * Forecast_Day supports trend-level reporting.
-     * Forecast_Hour enables granular drill-down analysis.
+   * Location acts as a central dimension enabling dynamic filtering.
+   * Separation of Current and Forecast tables prevents grain conflicts between real-time and aggregated data.
+   * Forecast_Day supports trend-level reporting.
+   * Forecast_Hour enables granular drill-down analysis.
 This structure supports:
-     * Multi-granularity reporting.
-     * Clean aggregation logic.
-     * Scalable future enhancements (e.g., Date dimension)
-     * Efficient KPI computation
+   * Multi-granularity reporting.
+   * Clean aggregation logic.
+   * Scalable future enhancements (e.g., Date dimension)
+   * Efficient KPI computation
 The model aligns with star-schema best practices for BI reporting.
 
 # KPIs & Metrics
