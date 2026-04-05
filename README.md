@@ -1,9 +1,7 @@
 # Weather-Analytics-Dashboard
 
 # Project Overview
-The Weather Analytics Dashboard is an interactive Power BI solution that integrates real-time and forecast weather data from WeatherAPI.com to deliver structured environmental insights across multiple global cities.
-The dashboard consolidates fragmented weather and air quality data into a unified analytical interface, enabling real-time monitoring, trend analysis, and cross-city comparison for informed decision-making.
-This project demonstrates API integration, dimensional data modeling, DAX-based KPI development, and analytical storytelling.
+This project is an End-to-End Power BI solution that transforms live data from WeatherAPI.com into an executive-level monitoring tool. It provides a real-time, consolidated view of global weather conditions, 72-hour forecasts, and critical air quality metrics for cities like Dubai, London, Mumbai, New York and Toronto.
 
 ## 📊 Dashboard Preview
 ![Weather Dashboard](Screenshots/Dashboard.png)
@@ -91,12 +89,11 @@ This solution converts raw weather data into actionable environmental intelligen
 The dashboard demonstrates how environmental data can support operational and strategic decision-making.
 
 # Tools & Technologies Used
-   * Power BI Desktop
-   * Power BI Service
-   * WeatherAPI
-   * Power Query (M)
-   * DAX
-   * Dimensional Data Modeling
+   * **Visualization:** Power BI Desktop
+   * **Data Ingestion:** REST API (WeatherAPI)
+   * **Transformation:** Power Query (M)
+   * **Calculations:** DAX (Data Analysis Expressions)
+   * **Modeling:** Dimensional Star Schema
 
 # Technical Strengths Demonstrated
    * API-driven data ingestion.
