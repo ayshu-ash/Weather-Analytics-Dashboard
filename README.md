@@ -6,7 +6,7 @@ The dashboard consolidates fragmented weather and air quality data into a unifie
 This project demonstrates API integration, dimensional data modeling, DAX-based KPI development, and analytical storytelling.
 
 ## 📊 Dashboard Preview
-![Weather Dashboard](Screenshots/dashboard.png)
+![Weather Dashboard](Screenshots/Dashboard.png)
 
 # Business Problem
 Urban planners, logistics teams, event organizers, and public health stakeholders require consolidated environmental intelligence to make weather-informed decisions.
