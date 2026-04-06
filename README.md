@@ -88,3 +88,10 @@ I utilized a Multi-Fact Star Schema to ensure the dashboard remains fast and acc
   * **Energy Demand:** Assists utility companies in predicting surges in cooling or heating needs by tracking upcoming temperature spikes.
 
   * **Inventory Management:** Helps retail businesses adjust stock for items like umbrellas or cooling drinks based on 72-hour weather shifts.
+
+## Limitations:
+  * Currently limited to a 72-hour forecast however, the Star Schema is built to scale to 14-day premium data instantly.
+
+  * Provides real-time snapshots only. A future iteration would involve connecting a SQL Database to perform Year-over-Year (YoY) trend analysis.
+
+  * City selection is pre-defined. Next steps include Dynamic Parameters to fetch data for any global coordinate on demand.
