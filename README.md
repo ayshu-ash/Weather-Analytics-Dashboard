@@ -1,4 +1,4 @@
-# Weather-Analytics-Dashboard
+# Weather Intelligence Dashboard
 
 ## Project Overview
 This project is an End-to-End Power BI solution that transforms live data from WeatherAPI.com into an executive-level monitoring tool. It provides a real-time, consolidated view of global weather conditions, 72-hour forecasts, and critical air quality metrics for cities like Dubai, London, Mumbai, New York and Toronto.
